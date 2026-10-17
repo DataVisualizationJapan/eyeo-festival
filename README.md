@@ -114,6 +114,6 @@ python3 scripts/check_output.py /tmp/eyeo-public --base-path /eyeo-test/
 4. Actionsの **Build and verify** で検証します。push・PR・手動実行はビルドのみで、公開しません。
 5. 公開するときだけ **Deploy to GitHub Pages (manual)** を手動実行します。GitHubのPages設定から取得したURLでビルドし、`public/`のみをデプロイします。独自ドメインもPages設定から解決します。
 
-GitHub Actions自体はまだ実行していません。Hugoは検証済みバージョンに固定し、Actionsは公式のメジャーバージョンを使用しています。PR操作はユーザーの許可を得てから、最新状態と差分を確認して行います。
+初回pushとGitHub ActionsのBuild and verifyは成功しています。GitHub PagesはGitHub Actions方式、Custom domainは`eyeo-festival.data-visualization.jp`に設定済みです。DNS設定と手動デプロイは未実施です。Hugoは検証済みバージョンに固定し、Actionsは公式のメジャーバージョンを使用しています。PR操作はユーザーの許可を得てから、最新状態と差分を確認して行います。
 
 参考：[Hugo公式のGitHub Pages公開手順](https://gohugo.io/host-and-deploy/deploy-to-github-pages/)。

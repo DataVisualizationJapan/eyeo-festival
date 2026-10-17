@@ -5,6 +5,10 @@
 - GitHub PagesのSource：GitHub Actions（APIでは`build_type: workflow`）
 - Custom domain：`eyeo-festival.data-visualization.jp`
 
+## 準備状況（2026-10-17）
+
+初回ソース登録済み。Pagesの`build_type: workflow`と独自ドメイン登録をAPIで確認済み。[初回CI](https://github.com/DataVisualizationJapan/eyeo-festival/actions/runs/39029395672)は成功。DNSのCNAMEは確認時点で未設定、サイトの手動デプロイは未実行。証明書発行とHTTPS強制はDNS反映後に確認する。
+
 ## DNS
 
 `data-visualization.jp`のDNSゾーンに次を追加する。TTLは3600秒またはDNSサービスの既定値。
