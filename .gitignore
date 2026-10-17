@@ -1,0 +1,11 @@
+/public/
+/resources/
+/.hugo_build.lock
+/.cache/
+__pycache__/
+.DS_Store
+/node_modules/
+/test-results/
+
+# Local editorial source material; never upload to the public repository.
+/_documents/

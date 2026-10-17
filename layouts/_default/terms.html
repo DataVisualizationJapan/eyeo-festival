@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="wrap section-space"><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h1 class="page-title">テーマから探す</h1><p class="intro">日本語記事の主題から、講演を辿ります。</p><div class="directory">{{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><span>{{ .Count }}記事 ↗</span></a>{{ end }}</div></section>{{ end }}

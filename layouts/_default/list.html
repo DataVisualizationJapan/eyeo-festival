@@ -1,0 +1,5 @@
+{{ define "main" }}
+<section class="wrap section-space"><p class="eyebrow">{{ if eq .Section "talks" }}READ THE TALKS{{ else }}EXPLORE THE ARCHIVE{{ end }}</p><h1 class="page-title">{{ .Title }}</h1>{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+{{ if eq .Section "talks" }}<div class="article-grid">{{ range .RegularPages }}{{ partial "article-card.html" . }}{{ end }}</div>
+{{ else }}<div class="directory">{{ range .Pages }}<a href="{{ .RelPermalink }}"><span>{{ .Title }}</span><span aria-hidden="true">↗</span></a>{{ end }}</div>{{ end }}</section>
+{{ end }}

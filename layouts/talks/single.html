@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="talk wrap">
+  <header class="talk-header"><a class="back-link" href="{{ "talks/" | relURL }}">← 日本語記事</a>
+    <section class="video-panel" aria-label="元の講演動画"><div class="video-placeholder{{ with index site.Data.thumbnails .Params.video_id }} has-thumbnail{{ end }}" data-video-id="{{ .Params.video_id }}">{{ partial "thumbnail.html" (dict "page" . "context" "hero") }}<button class="play-video" type="button"><span class="play-icon" aria-hidden="true">▶</span><span>講演動画を再生<span class="play-note">クリックするとVimeoに接続します</span></span></button></div><div class="video-caption"><span>{{ .Params.original_title }}</span><a href="https://vimeo.com/{{ .Params.video_id }}">Vimeoで見る ↗</a></div><noscript><p>動画は上の「Vimeoで見る」から視聴できます。</p></noscript></section>
+    <p class="eyebrow">EYEO {{ .Params.year }} · {{ .Params.display_speaker }}</p><h1>{{ .Title }}</h1><p class="talk-summary">{{ .Params.summary }}</p><div class="topic-links">{{ range .GetTerms "topics" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</div></header>
+  <div class="talk-layout"><aside class="talk-aside"><p class="eyebrow">この記事の内容</p>{{ .TableOfContents }}<p class="aside-note">{{ .Params.year }}年の講演をもとに再構成した日本語解説です。補足・考察は本文で区別しています。</p></aside><div class="talk-body">
+    <dl class="talk-facts"><div><dt>登壇者</dt><dd>{{ delimit .Params.speakers " / " }}</dd></div><div><dt>開催年</dt><dd><a href="{{ printf "years/%v/" .Params.year | relURL }}">{{ .Params.year }}</a></dd></div><div><dt>講演原題</dt><dd>{{ .Params.talk_title }}</dd></div><div><dt>記事更新</dt><dd>{{ .Lastmod.Format "2006.01.02" }}</dd></div></dl>
+    <div class="prose">{{ .Content }}</div>
+    <div class="end-note">この記事は非公式の解説です。講演の全文翻訳ではありません。映像と音声で伝えられる作品の表現も、元動画でぜひご覧ください。</div>
+  </div></div>
+</article>
+{{ end }}

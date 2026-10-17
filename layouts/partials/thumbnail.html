@@ -1,0 +1,8 @@
+{{ $page := .page }}
+{{ with index site.Data.thumbnails $page.Params.video_id }}
+  {{ with resources.Get .asset }}
+    {{ $small := .Fit "640x360 webp q85" }}
+    {{ $large := .Fit "1280x720 webp q85" }}
+    <img class="talk-thumbnail" src="{{ $large.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="{{ if eq $.context "card" }}(max-width: 700px) calc(100vw - 40px), (max-width: 1000px) 30vw, 373px{{ else }}(max-width: 700px) calc(100vw - 40px), 850px{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $page.Params.original_title }} — 公式動画のサムネイル" loading="{{ if eq $.context "card" }}lazy{{ else }}eager{{ end }}" decoding="async"{{ if ne $.context "card" }} fetchpriority="high"{{ end }}>
+  {{ end }}
+{{ end }}

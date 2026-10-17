@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="wrap section-space"><p class="eyebrow">TOPIC</p><h1 class="page-title">{{ .Title }}</h1><div class="article-grid">{{ range .Pages }}{{ partial "article-card.html" . }}{{ end }}</div></section>{{ end }}

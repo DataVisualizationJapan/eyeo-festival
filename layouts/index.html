@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="hero wrap">
+  <p class="eyebrow">EYEO FESTIVAL · 日本語で辿る、2011–2022</p>
+  <h1>つくる、その先の<br><span>考え方に出会う。</span></h1>
+  <div class="hero-bottom"><p>アートとコード、デザインと科学。<br>領域を越えて集まったつくり手たちの講演を、日本語でじっくり読むためのアーカイブです。</p><a class="text-link" href="{{ "videos/" | relURL }}">すべての動画を探す <span aria-hidden="true">↗</span></a></div>
+  <div class="year-ribbon" aria-label="開催年から探す"><span>開催年から</span>{{ range (where site.RegularPages "Section" "years").ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</div>
+</section>
+<section class="wrap section-space">
+  <div class="section-heading"><div><p class="eyebrow">READ THE TALKS</p><h2>日本語で読む</h2></div><a class="text-link" href="{{ "talks/" | relURL }}">記事一覧 →</a></div>
+  <div class="article-grid">{{ range where site.RegularPages "Section" "talks" }}{{ partial "article-card.html" . }}{{ end }}</div>
+</section>
+<section class="browse-section"><div class="wrap browse-inner"><div><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h2>年を越えて、<br>関心をつなぐ。</h2><p>同じつくり手の別の講演へ。<br>気になるテーマから、まだ知らない実践へ。</p></div><div class="browse-links"><a href="{{ "years/" | relURL }}"><span>開催年から</span><span>2011 → 2022 ↗</span></a><a href="{{ "speakers/" | relURL }}"><span>登壇者から</span><span>つくり手を辿る ↗</span></a><a href="{{ "topics/" | relURL }}"><span>テーマから</span><span>記事の主題を辿る ↗</span></a></div></div></section>
+<section class="wrap archive-note"><p class="eyebrow">ABOUT THIS ARCHIVE</p><p>完成した作品の奥には、試行錯誤や問いがあります。<br>このサイトは講演を手がかりに、その過程を読み解きます。</p><a class="text-link" href="{{ "about/" | relURL }}">このアーカイブについて →</a></section>
+{{ end }}

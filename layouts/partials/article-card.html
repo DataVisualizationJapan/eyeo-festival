@@ -1,0 +1,8 @@
+<article class="article-card">
+  {{ $thumbnail := index site.Data.thumbnails .Params.video_id }}
+  <a class="card-art {{ if $thumbnail }}has-thumbnail{{ else }}art-{{ .Params.visual }}{{ end }}" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ if $thumbnail }}{{ partial "thumbnail.html" (dict "page" . "context" "card") }}{{ else }}<span class="art-label">{{ .Params.year }}</span><span class="art-name">{{ .Params.display_speaker }}</span><span class="art-geometry"></span>{{ end }}</a>
+  <div class="card-meta"><span>EYEO {{ .Params.year }}</span><span>{{ .Params.display_speaker }}</span></div>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <p>{{ .Params.summary }}</p>
+  <a class="text-link" href="{{ .RelPermalink }}">記事を読む <span aria-hidden="true">→</span></a>
+</article>

@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $videos := where site.Data.videos.videos "event" "eyeo" }}
+{{ with .Params.filter_year }}{{ $videos = where $videos "year" (int .) }}{{ end }}
+{{ with .Params.filter_speaker }}{{ $videos = where $videos "speakers" "intersect" (slice .) }}{{ end }}
+<section class="wrap section-space catalog"><p class="eyebrow">EXPLORE THE TALKS</p><h1 class="page-title">{{ .Title }}</h1><div class="intro">{{ .Content }}</div>
+<p class="catalog-source">公式Vimeo収集：{{ substr site.Data.videos.collected_at 0 10 }} · Eyeo {{ len (where site.Data.videos.videos "event" "eyeo") }}本（アカウント全{{ site.Data.videos.count }}本から別イベントを除外）</p>
+<form class="filters" data-catalog-filters hidden role="search" aria-label="動画の検索と絞り込み">
+  <label class="search-label">キーワード<input type="search" name="q" placeholder="登壇者、動画タイトル、日本語記事" autocomplete="off"></label>
+  <label>開催年<select name="year"><option value="">すべての年</option>{{ range (where site.RegularPages "Section" "years").ByTitle }}<option value="{{ .Title }}">{{ .Title }}</option>{{ end }}</select></label>
+  <label>種別<select name="kind"><option value="">すべての種別</option><option value="talk">講演</option><option value="panel">パネル・対談</option><option value="ignite">Ignite!</option><option value="documentation">記録・関連映像</option><option value="unconfirmed">種別未確認</option></select></label>
+  <label>記事<select name="article"><option value="">すべて</option><option value="published">日本語記事あり</option><option value="not_started">記事未作成</option></select></label>
+  <button class="reset-button" type="reset">条件をクリア</button>
+</form>
+<div class="results-line"><p data-result-count role="status" aria-live="polite">{{ len $videos }}本の動画</p><a href="{{ "years/" | relURL }}">開催年</a><a href="{{ "speakers/" | relURL }}">登壇者</a></div>
+<noscript><p class="notice">検索・絞り込みにはJavaScriptが必要です。すべての動画は以下から閲覧できます。</p></noscript>
+<div class="video-list">
+{{ range sort $videos "year" "desc" }}
+  {{ $v := . }}{{ $article := site.GetPage (printf "/talks/%s" .id) }}
+  <article class="video-row" data-video-row data-year="{{ .year }}" data-kind="{{ .kind }}" data-article="{{ if $article }}published{{ else }}not_started{{ end }}" data-search="{{ .original_title }} {{ delimit .speakers " " }} {{ with $article }}{{ .Title }}{{ end }}">
+    <span class="video-year">{{ .year | default "年未確認" }}</span>
+    <div class="video-row-main"><div class="video-kind">{{ index site.Data.labels.kinds .kind }}{{ if $article }}<span class="article-badge">日本語記事あり</span>{{ end }}</div><h2><a href="{{ if $article }}{{ $article.RelPermalink }}{{ else }}{{ .url }}{{ end }}">{{ with $article }}{{ .Title }}{{ else }}{{ $v.listing_label }}{{ end }}</a></h2><p class="original-title">{{ .original_title }}</p></div>
+    <div class="video-actions">{{ with $article }}<a href="{{ .RelPermalink }}">記事を読む →</a>{{ end }}<a href="{{ .url }}">元動画 ↗</a></div>
+  </article>
+{{ end }}
+</div><p class="empty-state" data-empty hidden>該当する動画はありません。キーワードや絞り込み条件を変更してください。</p>
+</section>
+{{ end }}

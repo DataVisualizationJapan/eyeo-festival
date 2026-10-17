@@ -1,0 +1,155 @@
+{
+  "videos": {
+    "33369209": {
+      "speakers": [
+        "Jessica Rosenkrantz",
+        "Jesse Louis-Rosenberg"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "175846596": {
+      "speakers": [
+        "Ben Fry"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "Teaching, Tools, and the Trade"
+    },
+    "287093417": {
+      "speakers": [
+        "Casey Reas"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "THE SYSTEM DREAMS"
+    },
+    "772225816": {
+      "speakers": [
+        "Jen Lowe",
+        "Patricio Gonzalez Vivo"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "49268477": {
+      "speakers": [
+        "Jessica Rosenkrantz",
+        "Jesse Louis-Rosenberg"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "110081296": {
+      "kind": "panel",
+      "speakers": [],
+      "metadata_status": "title_only"
+    },
+    "178369022": {
+      "talk_title": "The Dance is Not The Dancers",
+      "speakers": [
+        "Nicky Case"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "287093641": {
+      "talk_title": "THE DATA WE DON’T SEE",
+      "speakers": [
+        "Giorgia Lupi"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "354276402": {
+      "talk_title": "FEELING AT HOME",
+      "speakers": [
+        "Lauren McCarthy"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "778319497": {
+      "talk_title": "TRANSITION: WORK IN PROGRESS",
+      "speakers": [
+        "Shirley Wu"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "287093172": {
+      "talk_title": "THE IMAGES ARE THE SAME",
+      "speakers": [
+        "Amanda Cox"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "28157440": {
+      "speakers": [
+        "Aaron Koblin"
+      ],
+      "metadata_status": "reviewed"
+    },
+    "110616469": {
+      "speakers": [
+        "Leah Buechley"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "Thinking About Making"
+    },
+    "179944387": {
+      "speakers": [
+        "Patricio Gonzalez Vivo"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "What Are The Chances?"
+    },
+    "178369024": {
+      "speakers": [
+        "Moritz Stefaner"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "Data Cuisine"
+    },
+    "287093751": {
+      "speakers": [
+        "Hannah Davis"
+      ],
+      "metadata_status": "reviewed",
+      "talk_title": "DATA, MUSIC, AND EMOTION"
+    }
+  },
+  "transcripts": {
+    "_documents/2014/Eyeo 2014 - Andru00e9 and Michel Du00e9costerd.mp4.md": {
+      "video_id": "110366724",
+      "reason": "ファイル名のu00e9をéとして復元し、同年の登壇者名を確認。"
+    },
+    "_documents/2014/Eyeo 2014 - Cu00e9sar Hidalgo.mp4.md": {
+      "video_id": "111132617",
+      "reason": "ファイル名のu00e9をéとして復元し、同年の登壇者名を確認。"
+    },
+    "_documents/2017/Albert Barabasi.md": {
+      "video_id": "232541073",
+      "reason": "短縮名Albert Barabasiを同年のAlbert-László Barabásiに対応。"
+    },
+    "_documents/2017/Eyeo 2017 - Gene Kogan.mp4 2.md": {
+      "video_id": "232544884",
+      "reason": "末尾の複製番号2を除き、同年のGene Koganに対応。"
+    },
+    "_documents/2022/Eyeo 2022 - Erin Han Ersin.mp4.md": {
+      "video_id": "777860647",
+      "reason": "Erinは表記誤り。本文のMarshmallow Laser Feastと樹木作品の説明を公式登壇者紹介と照合。"
+    },
+    "_documents/2022/Eyeo 2022 - Ignite! - Licia He on Vimeo.mp4.md": {
+      "video_id": "777104438",
+      "reason": "末尾on Vimeoを除き、年・種別・登壇者が一致。"
+    },
+    "_documents/2022/Eyeo 2022 - Jen Lowe and Patricio Gonzalez.mp4.md": {
+      "video_id": "772225816",
+      "reason": "andと&の表記差。年・両登壇者が一致。"
+    },
+    "_documents/2022/Eyeo 2022 - Panel - PANEL - FOSTERING CREATIVE COMMUNITIES.mp4.md": {
+      "video_id": "782661217",
+      "reason": "Panelの重複表記を除き、同年のパネル原題が一致。"
+    },
+    "_documents/2022/Eyeo 2022 - Salome Asega on Vimeo.mp4.md": {
+      "video_id": "772227147",
+      "reason": "末尾on Vimeoを除き、年・登壇者が一致。"
+    },
+    "_documents/2022/Pınar Demirdag.md": {
+      "video_id": "772227134",
+      "reason": "トルコ語のıと英字iの表記差。年・登壇者が一致。"
+    }
+  }
+}
