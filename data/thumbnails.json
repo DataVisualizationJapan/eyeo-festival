@@ -128,5 +128,155 @@
     "height": 720,
     "fetched_at": "2026-10-17T10:54:15.516598+00:00",
     "sha256": "b71fe5b906235b0bd5e8c665a2104cc21a449f85eeb17e809964e4f633c73d7e"
+  },
+  "112319901": {
+    "asset": "thumbnails/112319901.jpg",
+    "source_url": "https://i.vimeocdn.com/video/497495769-97c4a51ec046a41d7ce0efb765935515881fdef12666a87d16d733e71968a3ae-d_1280?region=us",
+    "video_url": "https://vimeo.com/112319901",
+    "title": "Eyeo 2014 - Mike Bostock",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:24:17.385259+00:00",
+    "sha256": "aef8413ee70d2562b768a516f85b355034d3e2d1b1207804fe246ea923545655"
+  },
+  "232656895": {
+    "asset": "thumbnails/232656895.jpg",
+    "source_url": "https://i.vimeocdn.com/video/654081235-f8c6d06b31376e4efaa7194c30050e85b37b72c40b22f30ca17ec0906ef517ce-d_1280?region=us",
+    "video_url": "https://vimeo.com/232656895",
+    "title": "Eyeo 2017 - Zach Lieberman",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:24:21.728100+00:00",
+    "sha256": "6cb64382242dcf1aef5334931c5125a94f3f023dc1ea6a2954a45c508aa034b1"
+  },
+  "234330230": {
+    "asset": "thumbnails/234330230.jpg",
+    "source_url": "https://i.vimeocdn.com/video/655887858-a73ede5f18e5b587a5c81299f84fdbb83a8eac7058af7150003cc9dec722678c-d_1280?region=us",
+    "video_url": "https://vimeo.com/234330230",
+    "title": "Eyeo 2017 - Taeyoon Choi ||",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:24:23.220642+00:00",
+    "sha256": "2b200be20e3a492e7c9508dedc14a79e2fa36820815b0d7a7e29e075393fb008"
+  },
+  "354276689": {
+    "asset": "thumbnails/354276689.jpg",
+    "source_url": "https://i.vimeocdn.com/video/811649171-03a1a6df075aa287a56d4052bea53a467ba275ac8cbea266e5973f1ec5474edc-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276689",
+    "title": "Eyeo 2019 - Nadieh Bremer",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:24:27.989244+00:00",
+    "sha256": "97cb593a8c84cf6870f5d5676da54ffdf2d2a66c0710ed05c795dfb9823567fe"
+  },
+  "777860720": {
+    "asset": "thumbnails/777860720.jpg",
+    "source_url": "https://i.vimeocdn.com/video/1569697184-681928769cf5861113e3dfe229c04c8c244999f8ef989a6368fb6e49c3cd3655-d_1280?region=us",
+    "video_url": "https://vimeo.com/777860720",
+    "title": "Eyeo 2022 - Stefanie Posavec",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:24:28.975182+00:00",
+    "sha256": "2d0b3773c19b8f1b8a31460a5fa666b53e4969ee300ad2dd86ab7765103f5429"
+  },
+  "354276137": {
+    "asset": "thumbnails/354276137.jpg",
+    "source_url": "https://i.vimeocdn.com/video/809950900-020aead4c248c2e533f9fbe5daa81d08b599f65007230aa61733acc790aef2c2-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276137",
+    "title": "Eyeo 2019 - Catherine D'Ignazio",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:35:00.495780+00:00",
+    "sha256": "2a21cdfc2f0a177a97509b4af4528f1a1a663e81c356cf9485cab299df37cc49"
+  },
+  "354276216": {
+    "asset": "thumbnails/354276216.jpg",
+    "source_url": "https://i.vimeocdn.com/video/809955057-5c31e5633c0008c9172d9a1b1ff59584f957ceeda3069f69e0f70c88edf72e2c-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276216",
+    "title": "Eyeo 2019 - Daniel Shiffman",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:35:01.365003+00:00",
+    "sha256": "12538d01e3b5f40fef25db47f1fa2a6b6495a9822a97bbad40d575ded2acf97a"
+  },
+  "354276626": {
+    "asset": "thumbnails/354276626.jpg",
+    "source_url": "https://i.vimeocdn.com/video/810185184-2b85c363696bb198d4d2957081cf17a4ac544fe7627c05879053e907d56f7c5f-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276626",
+    "title": "Eyeo 2019 - Mohit Bhoite",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:35:02.820845+00:00",
+    "sha256": "ac0655a485fb0896068958e664d75b163c4642eb0ec37ae90a22bbdc91887f29"
+  },
+  "354276730": {
+    "asset": "thumbnails/354276730.jpg",
+    "source_url": "https://i.vimeocdn.com/video/806744092-4f44b8da106d255cc6959cef396fef6ebc786206f09efca8a8c8e6c58225f4eb-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276730",
+    "title": "Eyeo 2019 - Nathan Yau",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:35:04.435823+00:00",
+    "sha256": "117e69712ed2437c0303436d1dfb069db59c1da547641de982d8f8d3dab3cc3b"
+  },
+  "782749700": {
+    "asset": "thumbnails/782749700.jpg",
+    "source_url": "https://i.vimeocdn.com/video/1574191319-f00aa88b376daebb79ed41fe6e5aacce9d8fc66a9b0858049f1eb2b78bb8c22f-d_1280?region=us",
+    "video_url": "https://vimeo.com/782749700",
+    "title": "Eyeo 2022 - Ariel Waldman",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:35:07.360138+00:00",
+    "sha256": "8f27bad058daeacb55097dd248dd4da32d0c2c2b7e9ccd9b819220462cc78417"
+  },
+  "354276365": {
+    "asset": "thumbnails/354276365.jpg",
+    "source_url": "https://i.vimeocdn.com/video/806743577-b2e69d527e53e49569b0ae34cd7dcb8d06315db2a7c846032a8ed22f2e78de32-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276365",
+    "title": "Eyeo 2019 - Helena Sarin",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:47:57.874952+00:00",
+    "sha256": "5e871933825b8f5cdb625f6d295c32a8e04769c50d6c44253e21cabe81732f40"
+  },
+  "354276752": {
+    "asset": "thumbnails/354276752.jpg",
+    "source_url": "https://i.vimeocdn.com/video/810193250-d20b9b05e050dc746ca516f33c917c91abc000d2be1d415c0c8f54a258c77acd-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276752",
+    "title": "Eyeo 2019 - Nicole Aptekar",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:47:59.637179+00:00",
+    "sha256": "ecd6779031170c71cb6d4d320297a3c6946a9846fd2761b710060f60c22e4004"
+  },
+  "772227121": {
+    "asset": "thumbnails/772227121.jpg",
+    "source_url": "https://i.vimeocdn.com/video/1550452979-50087cbe7565d404d38c3200452510b7cd53c5e5706709d7fb78d53534cbd23f-d_1280?region=us",
+    "video_url": "https://vimeo.com/772227121",
+    "title": "Eyeo 2022 - Nadja Popovich",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:48:07.223245+00:00",
+    "sha256": "adf5e44f0ebc486a98d2f5e59027616c077043bf0d9de1cfc03bf9dc9113b79a"
+  },
+  "354276927": {
+    "asset": "thumbnails/354276927.jpg",
+    "source_url": "https://i.vimeocdn.com/video/810199418-29790e7c1e87d3c52b1f3b1a61f0caeb0fba079909dc4da5f9d6851aad2496be-d_1280?region=us",
+    "video_url": "https://vimeo.com/354276927",
+    "title": "Eyeo 2019 - Sarah Groff Hennigh-Palermo",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:48:09.650588+00:00",
+    "sha256": "344288fb416d7e3520b4318aa2b11c95d2d923a090e2936df165cbc988ce716c"
+  },
+  "772227155": {
+    "asset": "thumbnails/772227155.jpg",
+    "source_url": "https://i.vimeocdn.com/video/1559331274-b4b37e589a6a65e02140ffc69a8496c4a75dd2f57edb0370b444f6162ea34265-d_1280?region=us",
+    "video_url": "https://vimeo.com/772227155",
+    "title": "Eyeo 2022 - Walter Kitundu",
+    "width": 1280,
+    "height": 720,
+    "fetched_at": "2026-10-18T06:48:11.417570+00:00",
+    "sha256": "d05aedb79148154bfb2263b8b7f471a45ac0aed3bec709db0607d83794ed8aa8"
   }
 }

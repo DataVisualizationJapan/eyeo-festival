@@ -36,7 +36,14 @@ hugo server --bind 127.0.0.1 --port 1313 --disableFastRender
 
 追加記事：Nicky Case（2016）、Giorgia Lupi（2018）、Amanda Cox（2018）、Lauren McCarthy（2019）、Shirley Wu（2022）。第2回追加までで計8記事です。追加5本の本文は出典・URLを含め約4,400〜4,900字で、資料確認の記録は`docs/editorial-review-batch-02.md`にまとめています。
 
-さらにAaron Koblin（2011）、Leah Buechley（2014）、Patricio Gonzalez Vivo（2016）、Moritz Stefaner（2016）、Hannah Davis（2018）を追加し、現在は計13記事です。今回の5本は出典・URLを含め約4,000〜4,200字。確認記録は`docs/editorial-review-batch-03.md`にあります。全13記事に公式Vimeoサムネイルを付けています。
+さらにAaron Koblin（2011）、Leah Buechley（2014）、Patricio Gonzalez Vivo（2016）、Moritz Stefaner（2016）、Hannah Davis（2018）を追加し、第3回追加までで計13記事です。今回の5本は出典・URLを含め約4,000〜4,200字。確認記録は`docs/editorial-review-batch-03.md`にあります。全記事に公式Vimeoサムネイルを付けています。
+
+Mike Bostock（2014）、Taeyoon Choi（2017）、Zach Lieberman（2017）、Nadieh Bremer（2019）、Stefanie Posavec（2022）を追加し、第4回追加までで計18記事です。第4回の本文は出典・URLを含め約4,100〜4,400字です。確認記録は`docs/editorial-review-batch-04.md`にあります。
+
+Nathan Yau（2019）、Mohit Bhoite（2019）、Daniel Shiffman（2019）、Catherine D’Ignazio（2019）、Ariel Waldman（2022）を追加し、この時点で計23記事です。第5回の本文は出典・URLを含め約4,000〜4,500字です。確認記録は`docs/editorial-review-batch-05.md`にあります。
+
+Helena Sarin（2019）、Nicole Aptekar（2019）、Nadja Popovich（2022）、Sarah Groff Hennigh-Palermo（2019）、Walter Kitundu（2022）を追加し、現在は計28記事です。第6回の本文は出典・URLを含め約3,800〜4,200字です。確認記録は`docs/editorial-review-batch-06.md`にあります。
+
 
 ## ファイルの役割
 

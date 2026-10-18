@@ -237,11 +237,12 @@
       "speakers": [
         "Ariel Waldman"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Ariel Waldman",
+      "talk_title": "CREATURES MADE OF GLASS",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2022/Eyeo 2022 - Ariel Waldman.mp4.md"
       ],
@@ -424,11 +425,12 @@
       "speakers": [
         "Stefanie Posavec"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Stefanie Posavec",
+      "talk_title": "YOU’RE DOING IT 'WRONG'",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2022/Eyeo 2022 - Stefanie Posavec.mp4.md"
       ],
@@ -786,11 +788,12 @@
       "speakers": [
         "Walter Kitundu"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Walter Kitundu",
+      "talk_title": "PROCESS AND POSSIBILITY",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2022/Eyeo 2022 - Walter Kitundu.mp4.md"
       ],
@@ -844,11 +847,12 @@
       "speakers": [
         "Nadja Popovich"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Nadja Popovich",
+      "talk_title": "VISUALIZING CLIMATE CHANGE",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2022/Eyeo 2022 - Nadja Popovich.mp4.md"
       ],
@@ -1264,11 +1268,12 @@
       "speakers": [
         "Sarah Groff Hennigh-Palermo"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Sarah Groff Hennigh-Palermo",
+      "talk_title": "UNDERMINING COMPUTING",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Sarah Groff Hennigh-Palermo.mp4.md"
       ],
@@ -1357,11 +1362,12 @@
       "speakers": [
         "Nicole Aptekar"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Nicole Aptekar",
+      "talk_title": "A LINE TAUT AGAINST A CURVED WORLD",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Nicole Aptekar.mp4.md"
       ],
@@ -1376,11 +1382,12 @@
       "speakers": [
         "Nathan Yau"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Nathan Yau",
+      "talk_title": "QUIET OBSERVER",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Nathan Yau.mp4.md"
       ],
@@ -1395,11 +1402,12 @@
       "speakers": [
         "Nadieh Bremer"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Nadieh Bremer",
+      "talk_title": "VISUALIZING CONNECTIONS",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Nadieh Bremer.mp4.md",
         "_documents/2019/Nadieh Bremer 2019.md"
@@ -1435,11 +1443,12 @@
       "speakers": [
         "Mohit Bhoite"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Mohit Bhoite",
+      "talk_title": "BUILDING FREE-FORMED CIRCUIT SCULPTURES",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Mohit Bhoite.mp4.md"
       ],
@@ -1551,11 +1560,12 @@
       "speakers": [
         "Helena Sarin"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Helena Sarin",
+      "talk_title": "PLAYING A GAME OF GANSTRUCTION",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Helena Sarin.mp4.md"
       ],
@@ -1627,11 +1637,12 @@
       "speakers": [
         "Daniel Shiffman"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Daniel Shiffman",
+      "talk_title": "CODING TRAIN - LIVE!",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Daniel Shiffman.mp4.md"
       ],
@@ -1678,11 +1689,12 @@
       "speakers": [
         "Catherine D'Ignazio"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Catherine D'Ignazio",
+      "talk_title": "FEMINIST DATA, FEMINIST FUTURES",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2019/Eyeo 2019 - Catherine D'Ignazio.mp4.md"
       ],
@@ -2446,11 +2458,12 @@
       "speakers": [
         "Taeyoon Choi"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Taeyoon Choi",
+      "talk_title": "Absence is Presence with Distance",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2017/Eyeo 2017 - Taeyoon Choi.mp4.md"
       ],
@@ -2785,11 +2798,12 @@
       "speakers": [
         "Zach Lieberman"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Zach Lieberman",
+      "talk_title": "Patterns",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2017/Eyeo 2017 - Zach Lieberman.mp4.md"
       ],
@@ -5257,11 +5271,12 @@
       "speakers": [
         "Mike Bostock"
       ],
-      "metadata_status": "title_only",
+      "metadata_status": "reviewed",
       "event": "eyeo",
       "listing_label": "Mike Bostock",
+      "talk_title": "Visualizing Algorithms",
       "transcript_status": "available",
-      "article_status": "not_started",
+      "article_status": "published",
       "transcript_sources": [
         "_documents/2014/Eyeo 2014 - Mike Bostock.mp4.md"
       ],

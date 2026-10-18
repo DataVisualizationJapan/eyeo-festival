@@ -21,7 +21,7 @@ Eyeo Festivalは、アート、コード、デザイン、科学の交差点で�
 
 通常の講演とIgnite!では、原題から登壇者名を整理しています。パネルや対談の参加者、表記の揺れについては未確認の箇所もあり、登壇者索引は完全な人物名簿ではありません。
 
-現在は、Ben Fry（2016）、Nervous System（2011）、Casey Reas（2018）、Nicky Case（2016）、Giorgia Lupi（2018）、Amanda Cox（2018）、Lauren McCarthy（2019）、Shirley Wu（2022）に加え、Aaron Koblin（2011）、Leah Buechley（2014）、Patricio Gonzalez Vivo（2016）、Moritz Stefaner（2016）、Hannah Davis（2018）の計13本の日本語記事を掲載しています。
+現在は、Ben Fry（2016）、Nervous System（2011）、Casey Reas（2018）、Nicky Case（2016）、Giorgia Lupi（2018）、Amanda Cox（2018）、Lauren McCarthy（2019）、Shirley Wu（2022）に加え、Aaron Koblin（2011）、Leah Buechley（2014）、Patricio Gonzalez Vivo（2016）、Moritz Stefaner（2016）、Hannah Davis（2018）に加え、Mike Bostock（2014）、Taeyoon Choi（2017）、Zach Lieberman（2017）、Nadieh Bremer（2019）、Stefanie Posavec（2022）に加え、Nathan Yau（2019）、Mohit Bhoite（2019）、Daniel Shiffman（2019）、Catherine D’Ignazio（2019）、Ariel Waldman（2022）に加え、Helena Sarin（2019）、Nicole Aptekar（2019）、Nadja Popovich（2022）、Sarah Groff Hennigh-Palermo（2019）、Walter Kitundu（2022）の計28本の日本語記事を掲載しています。
 
 ## 元の作品と動画へ
 
