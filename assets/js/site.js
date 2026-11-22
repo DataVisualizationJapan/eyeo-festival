@@ -1,4 +1,4 @@
-/* Browser-local filtering: no analytics, remote fonts, or third-party search. */
+/* Browser-local filtering. Analytics receives counts, never search text. */
 (() => {
   const normalize = value => value.normalize('NFKC').toLocaleLowerCase('ja').replace(/\s+/g, ' ').trim();
   const form = document.querySelector('[data-catalog-filters]');
@@ -13,6 +13,7 @@
       const control = form.elements.namedItem(key);
       if (params.has(key)) control.value = params.get(key);
     }
+    let analyticsTimer = 0;
     function filter(writeURL = true) {
       const values = Object.fromEntries(fields.map(k => [k, form.elements.namedItem(k).value]));
       const terms = normalize(values.q).split(' ').filter(Boolean);
@@ -27,7 +28,14 @@
       if (writeURL) {
         const next = new URL(location.href);
         fields.forEach(k => values[k] ? next.searchParams.set(k, values[k]) : next.searchParams.delete(k));
+        const changed = next.href !== location.href;
         history.replaceState(null, '', next);
+        if (changed) {
+          clearTimeout(analyticsTimer);
+          analyticsTimer = setTimeout(() => window.dvjAnalytics?.event('filter_apply', {
+            result_count: visible, has_search: Boolean(values.q),
+          }), 600);
+        }
       }
     }
     form.hidden = false;
@@ -46,6 +54,7 @@
       frame.title = 'Eyeo Festival 講演動画（Vimeo）';
       frame.allow = 'autoplay; fullscreen; picture-in-picture';
       frame.allowFullscreen = true;
+      window.dvjAnalytics?.event('video_load', {video_id: panel.dataset.videoId});
       panel.replaceChildren(frame);
       frame.focus();
     }, {once: true});
