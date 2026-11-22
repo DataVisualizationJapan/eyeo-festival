@@ -31,8 +31,16 @@ Eyeo Festivalは、アート、コード、デザイン、科学の交差点で�
 
 ## 外部サービスへの接続
 
-サイト内の検索・絞り込みは、ブラウザ内で動作します。アクセス解析や外部フォントは使用していません。埋め込み動画は、再生ボタンを押したときにVimeoへ接続します。外部リンク先では、各サービスの方針が適用されます。
+サイト内の検索・絞り込みは、ブラウザ内で動作します。外部フォントは使用していません。埋め込み動画は、再生ボタンを押したときにVimeoへ接続します。外部リンク先では、各サービスの方針が適用されます。
 
 - [Eyeo Festival 公式サイト](https://eyeofestival.com/)
 - [2022年の公式スケジュール](https://eyeofestival.com/schedule/)
 - [Eyeo Festival 公式Vimeo](https://vimeo.com/eyeofestival/videos)
+
+
+## アクセス解析について
+
+コンテンツの改善のため、Google Analyticsを使用しています。Cookieなどを通じて閲覧状況や操作状況を収集し、Data Visualization Japanの関連サイトを横断して集計します。サイト内検索に入力した語句は解析データに含めません。
+
+- [Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用](https://policies.google.com/technologies/partner-sites?hl=ja)
+- [Google Analyticsオプトアウトアドオン](https://tools.google.com/dlpage/gaoptout?hl=ja)

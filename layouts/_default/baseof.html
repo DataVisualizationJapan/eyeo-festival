@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ $js := resources.Get "js/site.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
+{{ partial "dvj/analytics.html" . }}
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
